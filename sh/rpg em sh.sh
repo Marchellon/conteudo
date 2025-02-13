@@ -65,7 +65,7 @@ for enemy_data in "${enemies[@]}"; do
             break
         fi
 
-        echo "⚔️ O $enemy_name está atacando..."
+        echo "O $enemy_name está atacando..."
         rolagem_inimigo=$(rolar_dado 20)
         echo "O inimigo rolou um D20 e tirou: $rolagem_inimigo"
         if [[ $rolagem_inimigo -eq 20 ]]; then
